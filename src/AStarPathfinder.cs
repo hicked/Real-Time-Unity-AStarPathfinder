@@ -67,11 +67,9 @@ public class AStarPathfinder : MonoBehaviour {
         }
     }
 
-
     // Note this function is a IEnumerator and therefore can be started as a coroutine.
     // It may be wise to change to full multithreading, depending on the scope of the project
-
-    // For better understanding of scoring, check Location.cs
+    // For better understanding of scoring, check README.md
     public IEnumerator FindPathCoroutine(Vector3 start, Vector3 end) {
         
         // Initializations
@@ -175,7 +173,7 @@ public class AStarPathfinder : MonoBehaviour {
         return validNeighbors;
     }
 
-    // Casts a a capsule in X direction to check if there is something in the way
+    // Casts a capsule in ______ direction to check if there is something in the way
     private bool PerformCapsuleCast(Vector3 location, Vector3 dir, float distance, int layerMask, out RaycastHit hitInfo) {
         return Physics.CapsuleCast(
             new Vector3(location.x, location.y + NPCHeight / 2f, location.z),

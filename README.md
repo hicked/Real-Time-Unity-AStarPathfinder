@@ -43,7 +43,7 @@ https://www.kodeco.com/3016-introduction-to-a-pathfinding*
 *   Change `Physiscs` cast to something less complex (Raycast)
 > *NOTE: All these will reduce accuracy of the pathfinder.*
 
-If you are still experiencing issue, another search algorithm (*D\* lite*), or multithreading might be worth looking into.
+If you are still experiencing issues, another search algorithm (*D\* lite*), or multithreading might be worth looking into.
 
 ### Pathfinder can't Find a Path:
 *   Decrease `tileSize` *(some small openings may not be found if tiles are too big)*

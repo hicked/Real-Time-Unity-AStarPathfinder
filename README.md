@@ -12,7 +12,7 @@ This script uses `Physics.CapsuleCast()` to enable near realtime processing of t
 As mentionned, this utilizes Unity's *Coroutine* system as well as `yield` statements since the pathfinding can be quite laborious, and require **thousands** of iterations over a while loop. This way, the pathfinding can be done over **multiple frames**. 
 Multithreading can be implemented for additional performance. 
 
->*See more about `Coroutines` and `yield` statements: 
+>*See more about `Coroutines` and `yield` statements: <br>
 https://docs.unity3d.com/Manual/Coroutines.html*
 
 

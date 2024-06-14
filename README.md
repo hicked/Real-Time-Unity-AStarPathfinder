@@ -25,7 +25,7 @@ The play area is set up as a grid with tiles. Each tile, or `Location` object wi
 *   **H:** The estimated cost from the current tile to the end tile. This is estimated as the pathfinder does not know what obstacle are in the future. Thus, it is simply the `ΔX + ΔY` of the two tiles or the "Manhattan distance" between them.
 *   **F:** The final score of the tile. This is a combination of the G value and the H value.
 
-> *Here is a great article that does a fantastic job of explaining it:
+> *Here is a great article that does a fantastic job of explaining it: <br>
 https://www.kodeco.com/3016-introduction-to-a-pathfinding*
 
 

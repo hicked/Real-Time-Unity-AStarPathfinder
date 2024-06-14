@@ -29,7 +29,7 @@ The play area is set up as a grid with tiles. Each tile, or `Location` object wi
 https://www.kodeco.com/3016-introduction-to-a-pathfinding*
 
 
-## Performance Issue:
+## Performance Issues:
 ### Pathfinder is Ignoring Colliders:
 *   Ensure that your walls/obstacles have:
     *   Colliders (mesh or otherwise)

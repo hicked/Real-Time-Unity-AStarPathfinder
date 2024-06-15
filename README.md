@@ -1,5 +1,6 @@
 # Unity-AStarPathfinder
-A basic example of A* pathfinding for Unity games (C#)
+A basic near REAL TIME example of A* pathfinding for Unity games (C#).
+This pathfinder does not require hardcoding environments and obstacles..
 
 See `NPC.cs` for example of usage, or see below for explanation of `AStarPathfinder.cs` code.
 

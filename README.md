@@ -5,7 +5,7 @@ This pathfinder does not require hardcoding environments and obstacles..
 See `NPC.cs` for example of usage, or see below for explanation of `AStarPathfinder.cs` code.
 
 ## What is it?
-This is a 2D A* pathfinder which enables game objects (ex: NPCs) to find (usually) the shortest path between a `star` and `end` point. However, a 3D iteration would be simple enough to implement.
+This is a 2D A* pathfinder which enables game objects (ex: NPCs) to find (usually) the shortest path between a `start` and `end` point. However, a 3D iteration would be simple enough to implement.
 
 This script uses `Physics.CapsuleCast()` to enable near realtime processing of the environment for pathfinding.
 >*I say near realtime since if the environment changes after or during the `FindPathCoroutine` coroutine, there will be issues.*
